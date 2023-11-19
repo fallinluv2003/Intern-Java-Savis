@@ -32,7 +32,7 @@ public class CartController {
     private List<GioHang> list = new ArrayList<>();
 
     @GetMapping("/user/cart")
-    public String hienThi(Model model) {
+    public String load(Model model) {
         int total = 0;
         list = cartService.getAllByTrangThai();
         for (GioHang gioHang : list) {
