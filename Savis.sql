@@ -1,5 +1,5 @@
-﻿CREATE DATABASE AssignmentJava5
-USE AssignmentJava5
+﻿CREATE DATABASE Savis
+USE Savis
 GO
 
 -- Account
